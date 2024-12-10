@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jaro", sans-serif;
+    font-weight: bold;
+    
+}
+
+
+header img{
+    height: 120px;
+    filter: brightness(1.2);
+    padding-bottom: 15px;
+}
+
+body{
+    background-color: rgba(11, 7, 1, 0.957);
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: outset;
+    border-color: orange;
+    border-radius: 15%;
+    background-image: url('https://dl.glitter-graphics.com/pub/3420/3420890xnbgb8v3mv.gif');
+    align-items: center;
+}
+
+
+header nav a{
+    text-decoration: none;
+    font-size: 27px;
+    padding: 20px ;
+    color: wheat;
+}
+
+nav a:hover{
+    padding:-47px;
+    color: rgb(222, 177, 54);
+    font-size: 30px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+.slick-dots li button{
+    height: 10px;
+    font-size: 0;
+    width: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(169, 111, 2);
+        
+}
+
+
+.slick-dots li button:hover{
+    border-color: rgb(129, 88, 12);
+    background-color: orange;
+}
+.slick-dots li{ 
+        padding-left: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            
+}
+
+.slick-dots {
+    
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#imageHead  img{
+    padding: 0 0;
+    width: 400px;
+    height: 400px;
+    border: inset;
+    border-radius:2%;
+    border-color: orange;
+}
+
+
+#imageHead img:hover {
+    cursor: pointer;
+    border-radius: 0%;
+    filter: contrast(1.2);  
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header .container{
+    border: outset;
+    border-color: rgba(249, 147, 4, 0.388);
+    background-color: rgba(172, 123, 33, 0.495);
+    border-radius: 144px;
+}
+
+
+
+#sec1{
+    border: outset;
+    border-color: rgb(108, 68, 5);
+    border-start-end-radius: 50%;
+    border-start-start-radius: 50%;
+    border-left: none;
+    border-right: none;
+    max-width: 100%;
+}
+
+
+.title h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: rgba(255, 89, 0, 0.963);
+    
+}
+
+
+
+.produto-imagem img{
+    height: 340px;
+    padding-bottom: 40px;
+    width: 170px;
+    border-top-right-radius: 30%;
+    border-color: rgba(255, 166, 0, 0.521);
+}
+
+.produto-imagem{
+    display: flex;
+    border-left: none;
+    padding-left: 100px;
+    border-right: none;
+    background-image: url('https://img.freepik.com/premium-vector/abstract-geometric-banner_105325-107.jpg');
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-color: rgba(255, 255, 255);
+    border: outset;
+    border-color: rgba(152, 155, 236, 0.537);    
+    border-radius: 200%;
+    border-top-right-radius: 10000%;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 600%;
+    height: 350px;
+}
+.produtos{
+    padding-top: 110px;
+    display: block;
+    justify-content: space-between;
+
+}
+
+.produtos p{
+    padding-top: 40px;
+    color: rgb(45, 11, 194);
+    max-width:450px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+
+
+#logo{
+    padding-left: 440px;
+    padding-top: 170px;
+    height: 100px;
+    width: 300px;
+}
+
+
+.purchase{
+    display: flex;
+}
+
+#purchase-button{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(64, 0, 255, 0.34);
+    border: inset;
+    border-width: 5px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    border-color: rgba(6, 117, 253, 0.493);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+
+#purchase-button:hover{
+    cursor: pointer;
+    filter: contrast(2);
+}
